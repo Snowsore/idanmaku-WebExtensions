@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"applications": {
+		"gecko": {
+			"id": "snow_sore@hotmail.com"
+		}
+	},
+	"name": "Idanmaku",
+	"version": "1.0",
+
+	"description": "All page danmaku Nyan :D.",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"js": [
+				"idmk.js"
+			]
+		}
+	]
+}
+
