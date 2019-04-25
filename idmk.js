@@ -21,8 +21,8 @@ icannon.style = `
 `;
 digestMessage(window.location.href).then(digestValue => {
 	const sha = hexString(digestValue)
-	icanvas.src = 'https://idmk.snowsore.com/' + sha;
-	icannon.src = 'https://idmk.snowsore.com/cannon/' + sha;
+	icanvas.src = 'https://idmk.snowsore.com/'// + sha;
+	icannon.src = 'https://idmk.snowsore.com/cannon/'// + sha;
 	document.body.appendChild(icanvas);
 	document.body.appendChild(icannon);
 });
